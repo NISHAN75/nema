@@ -1,0 +1,391 @@
+
+@media only screen and (max-width: 1600px){
+.map-img {
+    left: 75%;
+}
+.truck-img {
+    max-width:60%;
+}
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    section.video-area {
+        margin-top: 98px;
+    }
+ 
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    section.video-area {
+        margin-top: 98px;
+    }
+    .main-header .row .row > div.col-auto:nth-child(2), .main-header .row .row > div.col-auto:nth-child(1) {
+        display: none;
+    }
+    .circal-bg {
+        display: none;
+    }
+    .shipment-info {
+        padding: 87px 0 70px;
+        text-align: center;
+    }
+  
+   
+}
+/* Tablet & Mobile Layout: 991px. Only for desktop and tablet */
+@media only screen and (min-width: 991px) {
+    section.video-area {
+        margin-top: 98px;
+    }
+    .circal-bg {
+        display: none;
+    }
+    .shipment-info {
+        padding: 87px 0 70px;
+        text-align: center;
+    }
+  
+    .carBack {
+        margin: 0 !important;
+    }
+    #video-container {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        overflow: hidden;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    section.video-area {
+        margin-top: 98px;
+    }
+    .main-header .row .row > div.col-auto:nth-child(2), .main-header .row .row > div.col-auto:nth-child(1) {
+        display: none;
+    }
+    .circal-bg {
+        display: none;
+    }
+    .shipment-info {
+        padding: 87px 0 70px;
+        text-align: center;
+    }
+    .carBack {
+        margin: 0 !important;
+    }
+    img.dot-img {
+        display: none;
+    }
+    .map-img {
+        border-radius: 0;
+        position: relative;
+        left: 0;
+        max-height: auto;
+        width: 100%;
+    }
+    .proccess {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+    #video-container {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        overflow: hidden;
+    }
+    .nema-card {
+        margin-top: 150px;
+    }
+    .truck-img {
+        position: absolute;
+        bottom: -87%;
+        width: 100%;
+        right: 110px;
+    }
+    .logo-up{
+        max-width: 100px;
+    }
+    .nema-card h4 {
+        font-size: 30px;
+    }
+    .nema-card .nema-btn {
+        font-size: 18px;
+        max-width: 350px;
+        padding: 25px 10px;
+    }
+    .proccess-content {
+        padding-left: 46px;
+        margin-top: 20px;
+    }
+    .proccess-content p {
+        font-size: 18px;
+        color: #111D4A;
+    }    
+    .proccess-top {
+        padding: 85px 0 0;
+    }
+    .section-padding {
+        padding: 0 0;
+    }
+    .counter-title {
+        font-size: 30px;
+    }
+    .ship-img {
+        left: -43%;
+        bottom: 36px;
+    }
+    .s-btn {
+        border-radius: 0px 0px 15px 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .different-info h2 {
+        font-size: 35px;
+    }
+    .different-info h5 {
+        font-size: 20px;
+    }
+    .man-img {
+        position: absolute;
+        left: 106px;
+        bottom: 0;
+        max-width: 250px;
+    }
+    .touch-info h4 {
+        font-size: 35px;
+    }
+    .touch-info.text-center {
+        padding: 100px 0;
+    }
+    .get-area {
+        max-height: 100%;
+    }
+    .plan-img {
+        max-width: 100%;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 480px) {
+    section.video-area {
+        margin-top: 98px;
+    }
+    .main-header .row .row > div.col-auto:nth-child(2), .main-header .row .row > div.col-auto:nth-child(1) {
+        display: none;
+    }
+    .circal-bg {
+        display: none;
+    }
+    .shipment-info {
+        padding: 87px 0 70px;
+        text-align: center;
+    }
+    .carBack {
+        margin: 0 !important;
+    }
+    img.dot-img {
+        display: none;
+    }
+    .map-img {
+        border-radius: 0;
+        position: relative;
+        left: 0;
+        max-height: auto;
+        width: 100%;
+    }
+    .proccess {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+    #video-container {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        overflow: hidden;
+    }
+    .nema-card {
+        margin-top: 150px;
+    }
+    .truck-img {
+        position: absolute;
+        bottom: -87%;
+        width: 100%;
+        right: 110px;
+    }
+    .logo-up{
+        max-width: 100px;
+    }
+    .nema-card h4 {
+        font-size: 30px;
+    }
+    .nema-card .nema-btn {
+        font-size: 18px;
+        max-width: 350px;
+        padding: 25px 10px;
+    }
+    .proccess-content {
+        padding-left: 46px;
+        margin-top: 20px;
+    }
+    .proccess-content p {
+        font-size: 18px;
+        color: #111D4A;
+    }    
+    .proccess-top {
+        padding: 85px 0 0;
+    }
+    .section-padding {
+        padding: 0 0;
+    }
+    .counter-title {
+        font-size: 30px;
+    }
+    .ship-img {
+        left: -43%;
+        bottom: 36px;
+    }
+    .s-btn {
+        border-radius: 0px 0px 15px 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .different-info h2 {
+        font-size: 30px;
+    }
+    .different-info h5 {
+        font-size: 20px;
+    }
+    .man-img {
+        position: absolute;
+        left: 70px;
+        bottom: 0;
+        max-width: 180px;
+    }
+    .touch-info h4 {
+        font-size: 35px;
+    }
+    .touch-info.text-center {
+        padding: 100px 0;
+    }
+    .get-area {
+        max-height: 100%;
+    }
+    .plan-img {
+        max-width: 100%;
+    }
+   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 320px) {
+    section.video-area {
+        margin-top: 98px;
+    }
+    .main-header .row .row > div.col-auto:nth-child(2), .main-header .row .row > div.col-auto:nth-child(1) {
+        display: none;
+    }
+    .circal-bg {
+        display: none;
+    }
+    .shipment-info {
+        padding: 87px 0 70px;
+        text-align: center;
+    }
+    .carBack {
+        margin: 0 !important;
+    }
+    img.dot-img {
+        display: none;
+    }
+    .map-img {
+        border-radius: 0;
+        position: relative;
+        left: 0;
+        max-height: auto;
+        width: 100%;
+    }
+    .proccess {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+    #video-container {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        overflow: hidden;
+    }
+    .nema-card {
+        margin-top: 150px;
+    }
+    .truck-img {
+        position: absolute;
+        bottom: -87%;
+        width: 100%;
+        right: 110px;
+    }
+    .logo-up{
+        max-width: 100px;
+    }
+    .nema-card h4 {
+        font-size: 25px;
+    }
+    .nema-card .nema-btn {
+        font-size: 18px;
+        max-width: 350px;
+        padding: 25px 10px;
+    }
+    .proccess-content {
+        padding-left: 46px;
+        margin-top: 20px;
+    }
+    .proccess-content p {
+        font-size: 18px;
+        color: #111D4A;
+    }    
+    .proccess-top {
+        padding: 85px 0 0;
+    }
+    .section-padding {
+        padding: 0 0;
+    }
+    .counter-title {
+        font-size: 25px;
+    }
+    .ship-img {
+        left: -43%;
+        bottom: 36px;
+    }
+    .s-btn {
+        border-radius: 0px 0px 15px 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .different-info h2 {
+        font-size: 30px;
+    }
+    .different-info h5 {
+        font-size: 18px;
+    }
+    .man-img {
+        position: absolute;
+        left: 70px;
+        bottom: 0;
+        max-width: 180px;
+    }
+    .touch-info h4 {
+        font-size: 30px;
+    }
+    .touch-info.text-center {
+        padding: 100px 0;
+    }
+    .get-area {
+        max-height: 100%;
+    }
+    .plan-img {
+        max-width: 100%;
+    }
+ 
+}
